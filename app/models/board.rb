@@ -3,7 +3,9 @@
 # Table name: boards
 #
 #  id         :integer          not null, primary key
+#  integer    :string
 #  name       :string
+#  user       :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
